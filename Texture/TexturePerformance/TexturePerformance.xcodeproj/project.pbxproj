@@ -1,0 +1,648 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		87AC34F52C335163006BDD04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AC34F42C335163006BDD04 /* AppDelegate.swift */; };
+		87AC34F72C335163006BDD04 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AC34F62C335163006BDD04 /* SceneDelegate.swift */; };
+		87AC34F92C335163006BDD04 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AC34F82C335163006BDD04 /* ViewController.swift */; };
+		87AC34FE2C335164006BDD04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87AC34FD2C335164006BDD04 /* Assets.xcassets */; };
+		87AC35012C335164006BDD04 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 87AC35002C335164006BDD04 /* Base */; };
+		87AC350C2C335164006BDD04 /* TexturePerformanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AC350B2C335164006BDD04 /* TexturePerformanceTests.swift */; };
+		87AC35162C335164006BDD04 /* TexturePerformanceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AC35152C335164006BDD04 /* TexturePerformanceUITests.swift */; };
+		87AC35182C335164006BDD04 /* TexturePerformanceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AC35172C335164006BDD04 /* TexturePerformanceUITestsLaunchTests.swift */; };
+		87AC35262C3356E4006BDD04 /* AsyncDisplayKit in Frameworks */ = {isa = PBXBuildFile; productRef = 87AC35252C3356E4006BDD04 /* AsyncDisplayKit */; };
+		87AC352A2C337A0E006BDD04 /* FPSCounter in Frameworks */ = {isa = PBXBuildFile; productRef = 87AC35292C337A0E006BDD04 /* FPSCounter */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		87AC35082C335164006BDD04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87AC34E92C335163006BDD04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87AC34F02C335163006BDD04;
+			remoteInfo = TexturePerformance;
+		};
+		87AC35122C335164006BDD04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87AC34E92C335163006BDD04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87AC34F02C335163006BDD04;
+			remoteInfo = TexturePerformance;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		87AC34F12C335163006BDD04 /* TexturePerformance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TexturePerformance.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		87AC34F42C335163006BDD04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		87AC34F62C335163006BDD04 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		87AC34F82C335163006BDD04 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		87AC34FD2C335164006BDD04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		87AC35002C335164006BDD04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		87AC35022C335164006BDD04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87AC35072C335164006BDD04 /* TexturePerformanceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TexturePerformanceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		87AC350B2C335164006BDD04 /* TexturePerformanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TexturePerformanceTests.swift; sourceTree = "<group>"; };
+		87AC35112C335164006BDD04 /* TexturePerformanceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TexturePerformanceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		87AC35152C335164006BDD04 /* TexturePerformanceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TexturePerformanceUITests.swift; sourceTree = "<group>"; };
+		87AC35172C335164006BDD04 /* TexturePerformanceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TexturePerformanceUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87AC34EE2C335163006BDD04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87AC35262C3356E4006BDD04 /* AsyncDisplayKit in Frameworks */,
+				87AC352A2C337A0E006BDD04 /* FPSCounter in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87AC35042C335164006BDD04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87AC350E2C335164006BDD04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		87AC34E82C335163006BDD04 = {
+			isa = PBXGroup;
+			children = (
+				87AC34F32C335163006BDD04 /* TexturePerformance */,
+				87AC350A2C335164006BDD04 /* TexturePerformanceTests */,
+				87AC35142C335164006BDD04 /* TexturePerformanceUITests */,
+				87AC34F22C335163006BDD04 /* Products */,
+				87AC35282C337A0E006BDD04 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		87AC34F22C335163006BDD04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87AC34F12C335163006BDD04 /* TexturePerformance.app */,
+				87AC35072C335164006BDD04 /* TexturePerformanceTests.xctest */,
+				87AC35112C335164006BDD04 /* TexturePerformanceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87AC34F32C335163006BDD04 /* TexturePerformance */ = {
+			isa = PBXGroup;
+			children = (
+				87AC34F42C335163006BDD04 /* AppDelegate.swift */,
+				87AC34F62C335163006BDD04 /* SceneDelegate.swift */,
+				87AC34F82C335163006BDD04 /* ViewController.swift */,
+				87AC34FD2C335164006BDD04 /* Assets.xcassets */,
+				87AC34FF2C335164006BDD04 /* LaunchScreen.storyboard */,
+				87AC35022C335164006BDD04 /* Info.plist */,
+			);
+			path = TexturePerformance;
+			sourceTree = "<group>";
+		};
+		87AC350A2C335164006BDD04 /* TexturePerformanceTests */ = {
+			isa = PBXGroup;
+			children = (
+				87AC350B2C335164006BDD04 /* TexturePerformanceTests.swift */,
+			);
+			path = TexturePerformanceTests;
+			sourceTree = "<group>";
+		};
+		87AC35142C335164006BDD04 /* TexturePerformanceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				87AC35152C335164006BDD04 /* TexturePerformanceUITests.swift */,
+				87AC35172C335164006BDD04 /* TexturePerformanceUITestsLaunchTests.swift */,
+			);
+			path = TexturePerformanceUITests;
+			sourceTree = "<group>";
+		};
+		87AC35282C337A0E006BDD04 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87AC34F02C335163006BDD04 /* TexturePerformance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87AC351B2C335164006BDD04 /* Build configuration list for PBXNativeTarget "TexturePerformance" */;
+			buildPhases = (
+				87AC34ED2C335163006BDD04 /* Sources */,
+				87AC34EE2C335163006BDD04 /* Frameworks */,
+				87AC34EF2C335163006BDD04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TexturePerformance;
+			packageProductDependencies = (
+				87AC35252C3356E4006BDD04 /* AsyncDisplayKit */,
+				87AC35292C337A0E006BDD04 /* FPSCounter */,
+			);
+			productName = TexturePerformance;
+			productReference = 87AC34F12C335163006BDD04 /* TexturePerformance.app */;
+			productType = "com.apple.product-type.application";
+		};
+		87AC35062C335164006BDD04 /* TexturePerformanceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87AC351E2C335164006BDD04 /* Build configuration list for PBXNativeTarget "TexturePerformanceTests" */;
+			buildPhases = (
+				87AC35032C335164006BDD04 /* Sources */,
+				87AC35042C335164006BDD04 /* Frameworks */,
+				87AC35052C335164006BDD04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87AC35092C335164006BDD04 /* PBXTargetDependency */,
+			);
+			name = TexturePerformanceTests;
+			productName = TexturePerformanceTests;
+			productReference = 87AC35072C335164006BDD04 /* TexturePerformanceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		87AC35102C335164006BDD04 /* TexturePerformanceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87AC35212C335164006BDD04 /* Build configuration list for PBXNativeTarget "TexturePerformanceUITests" */;
+			buildPhases = (
+				87AC350D2C335164006BDD04 /* Sources */,
+				87AC350E2C335164006BDD04 /* Frameworks */,
+				87AC350F2C335164006BDD04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87AC35132C335164006BDD04 /* PBXTargetDependency */,
+			);
+			name = TexturePerformanceUITests;
+			productName = TexturePerformanceUITests;
+			productReference = 87AC35112C335164006BDD04 /* TexturePerformanceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87AC34E92C335163006BDD04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					87AC34F02C335163006BDD04 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					87AC35062C335164006BDD04 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 87AC34F02C335163006BDD04;
+					};
+					87AC35102C335164006BDD04 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 87AC34F02C335163006BDD04;
+					};
+				};
+			};
+			buildConfigurationList = 87AC34EC2C335163006BDD04 /* Build configuration list for PBXProject "TexturePerformance" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 87AC34E82C335163006BDD04;
+			packageReferences = (
+				87AC35242C3356E4006BDD04 /* XCRemoteSwiftPackageReference "Texture" */,
+				87AC35272C3379F6006BDD04 /* XCRemoteSwiftPackageReference "fps-counter" */,
+			);
+			productRefGroup = 87AC34F22C335163006BDD04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87AC34F02C335163006BDD04 /* TexturePerformance */,
+				87AC35062C335164006BDD04 /* TexturePerformanceTests */,
+				87AC35102C335164006BDD04 /* TexturePerformanceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87AC34EF2C335163006BDD04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87AC34FE2C335164006BDD04 /* Assets.xcassets in Resources */,
+				87AC35012C335164006BDD04 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87AC35052C335164006BDD04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87AC350F2C335164006BDD04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87AC34ED2C335163006BDD04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87AC34F92C335163006BDD04 /* ViewController.swift in Sources */,
+				87AC34F52C335163006BDD04 /* AppDelegate.swift in Sources */,
+				87AC34F72C335163006BDD04 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87AC35032C335164006BDD04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87AC350C2C335164006BDD04 /* TexturePerformanceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87AC350D2C335164006BDD04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87AC35162C335164006BDD04 /* TexturePerformanceUITests.swift in Sources */,
+				87AC35182C335164006BDD04 /* TexturePerformanceUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		87AC35092C335164006BDD04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87AC34F02C335163006BDD04 /* TexturePerformance */;
+			targetProxy = 87AC35082C335164006BDD04 /* PBXContainerItemProxy */;
+		};
+		87AC35132C335164006BDD04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87AC34F02C335163006BDD04 /* TexturePerformance */;
+			targetProxy = 87AC35122C335164006BDD04 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		87AC34FF2C335164006BDD04 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87AC35002C335164006BDD04 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		87AC35192C335164006BDD04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		87AC351A2C335164006BDD04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		87AC351C2C335164006BDD04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U72T7VXNG3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TexturePerformance/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nktssk.TexturePerformance;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		87AC351D2C335164006BDD04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U72T7VXNG3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TexturePerformance/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nktssk.TexturePerformance;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		87AC351F2C335164006BDD04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nktssk.TexturePerformanceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TexturePerformance.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TexturePerformance";
+			};
+			name = Debug;
+		};
+		87AC35202C335164006BDD04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nktssk.TexturePerformanceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TexturePerformance.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TexturePerformance";
+			};
+			name = Release;
+		};
+		87AC35222C335164006BDD04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nktssk.TexturePerformanceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TexturePerformance;
+			};
+			name = Debug;
+		};
+		87AC35232C335164006BDD04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nktssk.TexturePerformanceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TexturePerformance;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87AC34EC2C335163006BDD04 /* Build configuration list for PBXProject "TexturePerformance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87AC35192C335164006BDD04 /* Debug */,
+				87AC351A2C335164006BDD04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87AC351B2C335164006BDD04 /* Build configuration list for PBXNativeTarget "TexturePerformance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87AC351C2C335164006BDD04 /* Debug */,
+				87AC351D2C335164006BDD04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87AC351E2C335164006BDD04 /* Build configuration list for PBXNativeTarget "TexturePerformanceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87AC351F2C335164006BDD04 /* Debug */,
+				87AC35202C335164006BDD04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87AC35212C335164006BDD04 /* Build configuration list for PBXNativeTarget "TexturePerformanceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87AC35222C335164006BDD04 /* Debug */,
+				87AC35232C335164006BDD04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		87AC35242C3356E4006BDD04 /* XCRemoteSwiftPackageReference "Texture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/shimastripe/Texture.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.1;
+			};
+		};
+		87AC35272C3379F6006BDD04 /* XCRemoteSwiftPackageReference "fps-counter" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/konoma/fps-counter";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		87AC35252C3356E4006BDD04 /* AsyncDisplayKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 87AC35242C3356E4006BDD04 /* XCRemoteSwiftPackageReference "Texture" */;
+			productName = AsyncDisplayKit;
+		};
+		87AC35292C337A0E006BDD04 /* FPSCounter */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 87AC35272C3379F6006BDD04 /* XCRemoteSwiftPackageReference "fps-counter" */;
+			productName = FPSCounter;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 87AC34E92C335163006BDD04 /* Project object */;
+}
